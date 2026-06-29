@@ -1,0 +1,34 @@
+# Hermes Agent + Python + Node
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Virtualenvs
+venv/
+.venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / tmp
+*.log
+*.tmp
+.tmp/
+
+# Build artefacts
+dist/
+build/
+*.egg-info/
+
+# Hermes state (not for git)
+.hermes-state/
